@@ -41,9 +41,8 @@
 
 
 // Task 3 :
-// Argument sifatida berilgan stringda nechta a harfi qatnashgan SO'ZNI toping A harfini emas!!!!!!!!!!!!!!!
 
-// const countLetter = (userdata) => {
+// const countWord = (userdata = "".toLowerCase()) => {
 //     let count = 0;
 //     for (let i = 0; i < userdata.length; i++) {
 //         if (userdata[i].includes("a")) {
@@ -57,32 +56,28 @@
 
 // }
 
-// countLetter("My major is Aerospace engineering but i also like the Web Programming ")
+// countWord("My major is Aerospace engineering but i also like the Web Programming")
+
 
 // Task 4
+// const minMaxWord = (str) =>{
+// let arr = str.split(" ")
+// let minWord = arr[0];
+// let maxWord = arr[0];
+// for (const item of arr) {
+//     if (item.length < minWord.length) {
+//         minWord = item
+      
+//     }
+//     if (item.length > maxWord.length) {
+//         maxWord = item
+//     }
 
-// 4-task
-
-// function minMaxWord(w) {
-//    const words = w.split(" ");
-
-//    let minWord = words[0];
-//    let maxWord = words[0];
-
-//    words.forEach((word) => {
-//       if (word.length < minWord.length) {
-//          minWord = word;
-//       }
-//       if (word.length > maxWord.length) {
-//          maxWord = word;
-//       }
-//    });
-
-//    return { minWord, maxWord };
 // }
+//     console.log(`Max word is ${maxWord} and Min word is ${minWord}`);
+// }
+// minMaxWord("sun Venera Jupiter Mars Neptun")
 
-// const result = minMaxWord("i am studying Frontend");
-// console.log(result);
 
 
 
@@ -93,26 +88,25 @@
 
 // Task 5
 
-// let array = ["CHevrolete", "BMw", "Porsche"]
+// let array = ["sun", "Venera", "Jupiter", "Mars", "Neptun"]
 
-// function addObj(arr) {
+// function countStr(array) {
 //     let obj = {};
 //     for (let i = 0; i < array.length; i++) {
-//         obj[array[i]] = array[i].length;
+//         obj[array[i]] = array[i].length
 //     }
-//     console.log(obj)
+//     console.log(obj);
 // }
-// addObj()
+// countStr(array)
 
 // Task 6
 
 // let num = prompt("Enter number");
 // function getLevel() {
-//     let sum = 1;
+
 //     let arr = [];
 //     for (let i = 1; i <= num; i++) {
-//         sum = sum * 2
-//         arr.push(sum)
+//         arr.push(Math.pow(num,i))
 //     }
 //     console.log(arr)
 // }
@@ -120,5 +114,4 @@
 // getLevel()
 
 // Task 7
-// 7ga tushunmadim uzr
 
