@@ -115,3 +115,19 @@
 
 // Task 7
 
+let array = [ 1,2,3,4,5,6]
+
+function findMiddle() {
+    let index = Math.floor(array.length / 2)
+    console.log(index);
+
+    let middle = 0;
+
+    if (array.length % 2 == 0) {
+        middle = (array[index] + array[index - 1]) / 2
+    } else {
+        middle = array[index]
+    }
+    console.log(middle); 
+}
+findMiddle()
